@@ -1,0 +1,34 @@
+.trackContainer {
+  width: 25vw;
+  height: 90vw;
+  padding: 0vh 1vw;
+}
+
+.trackTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 0vh 1vw;
+}
+
+.trackName {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: grey;
+  font-size: calc(0.6vw + 0.6vh);
+  font-weight: 800;
+}
+
+.trackCount {
+  padding-left: 1vw;
+  color: rgb(148, 148, 148);
+  font-size: calc(0.6vw + 0.6vh);
+  font-weight: 400;
+}
+
+.createIcon {
+  font-size: calc(0.8vw + 0.8vh);
+  color: gray;
+  background-color: rgb(37, 37, 37);
+  border-radius: 5vw;
+  cursor: pointer;
+}
